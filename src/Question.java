@@ -1,5 +1,5 @@
-public class Question {
+public abstract class Question {
     private String Enunciado;
-    private Dificuldade dificuldade;
+    private int Dificuldade;
 
 }
