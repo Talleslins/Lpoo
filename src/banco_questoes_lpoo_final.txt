@@ -1,0 +1,169 @@
+=== BANCO DE QUESTOES LPOO - VERSAO FINAL ===
+ESTRUTURA: TIPO -> DIFICULDADE -> PERGUNTA -> RESPOSTA -> OPCOES (se MC)
+----------------------------------------------------------------------
+
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Qual conceito de LPOO permite que uma classe herde atributos e metodos de outra?
+RESPOSTA: C
+OPCOES: A) Encapsulamento; B) Polimorfismo; C) Heranca; D) Abstracao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Uma classe funciona como um 'molde' para a criacao de objetos.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Qual palavra-chave em Java e usada para instanciar um novo objeto?
+RESPOSTA: B
+OPCOES: A) create; B) new; C) instance; D) this
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Atributos marcados como 'private' podem ser acessados diretamente por qualquer outra classe.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: O que define o 'estado' de um objeto em LPOO?
+RESPOSTA: B
+OPCOES: A) Seus metodos; B) Seus atributos (variaveis); C) Suas interfaces; D) Seu construtor
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Java permite que uma classe herde diretamente de multiplas classes (heranca multipla).
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Qual e a finalidade principal do metodo construtor?
+RESPOSTA: B
+OPCOES: A) Destruir o objeto; B) Inicializar os atributos do objeto; C) Imprimir dados na tela; D) Somar valores
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: O metodo 'main' e o ponto de entrada obrigatorio de um programa Java executavel.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Qual modificador de acesso permite que um membro seja acessado de qualquer lugar?
+RESPOSTA: C
+OPCOES: A) private; B) protected; C) public; D) default
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Objetos sao instancias de uma classe.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Qual termo descreve a capacidade de um objeto assumir varias formas (sobrescrita)?
+RESPOSTA: B
+OPCOES: A) Encapsulamento; B) Polimorfismo; C) Composicao; D) Serializacao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Metodos estaticos podem acessar diretamente variaveis de instancia nao estaticas.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: A palavra-chave 'super' em Java e usada para:
+RESPOSTA: B
+OPCOES: A) Finalizar o programa; B) Referenciar a classe pai (superclasse); C) Criar uma variavel estatica; D) Definir uma interface
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Uma classe abstrata pode possuir metodos com corpo (implementados).
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Qual a principal diferenca entre uma Interface e uma Classe Abstrata?
+RESPOSTA: C
+OPCOES: A) Interfaces nao podem ter metodos; B) Classes abstratas nao podem ter atributos; C) Uma classe pode implementar varias interfaces; D) Nao ha diferenca
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: O polimorfismo em tempo de execucao e alcancado atraves da sobrescrita de metodos.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: O que acontece na 'Sobrescrita' (Overriding) de metodos?
+RESPOSTA: B
+OPCOES: A) Metodo com mesmo nome mas parametros diferentes; B) Redefinicao de metodo da classe pai na classe filha; C) Exclusao de metodo; D) Metodo sem corpo
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: O modificador 'final' em uma classe impede que ela seja herdada.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: O modificador 'static' indica que um membro:
+RESPOSTA: C
+OPCOES: A) Pertence a instancia; B) Nao pode ser alterado; C) Pertence a classe e e compartilhado; D) E visivel apenas no pacote
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Construtores podem ser sobrecarregados (Overloading) em Java.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: No principio SOLID, o que representa a letra 'L' (Liskov Substitution)?
+RESPOSTA: B
+OPCOES: A) Aberto para extensao; B) Subclasses devem substituir classes base sem erros; C) Interfaces pequenas; D) Inversao de dependencia
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: A composicao e geralmente preferivel a heranca para diminuir o acoplamento.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Qual das alternativas melhor descreve o conceito de 'Coesao'?
+RESPOSTA: B
+OPCOES: A) Dependencia entre modulos; B) Medida de quao focada e uma classe em uma responsabilidade; C) Uso de heranca; D) Conexao com BD
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Interfaces em Java 8+ podem conter metodos 'default' com implementacao.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre Classes Internas Anonimas em Java, e correto afirmar:
+RESPOSTA: B
+OPCOES: A) Nao acessam membros privados; B) Sao declaradas e instanciadas ao mesmo tempo; C) Devem ser estaticas; D) Nao existem
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: O 'Downcasting' e sempre seguro e nunca gera erros em tempo de execucao.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: O que e 'Acoplamento' em LPOO?
+RESPOSTA: B
+OPCOES: A) Uniao de objetos; B) Nivel de interdependencia entre as classes; C) Compilacao do codigo; D) Seguranca de dados
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: O Garbage Collector garante a liberacao imediata da memoria apos a perda da referencia.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Qual Design Pattern garante que uma classe tenha apenas uma instancia?
+RESPOSTA: B
+OPCOES: A) Factory; B) Singleton; C) Observer; D) Strategy
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Uma classe abstrata pode implementar uma interface sem implementar todos os seus metodos.
+RESPOSTA: V
+---

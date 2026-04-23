@@ -1,17 +1,18 @@
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class QuestionBank
 {
-
+    private ArrayList<Question> perguntas = new ArrayList<>();
+    Scanner scanner = null;
 
 
     void lerArquivo(){
 
         File file = new File("src/questoes_lpoo_jogo_v2.txt");
-        Scanner scanner = null;
         String linha;
         try {
             scanner = new Scanner(file);
@@ -27,9 +28,27 @@ public class QuestionBank
                             break;
                         case "VERDADEIRO_FALSO":
                             novaPergunta = new TrueFalse();
-
+                            break;
 
                     }
+                    String[] dif = scanner.nextLine().split(":");
+                    String[] enu = scanner.nextLine().split(":");
+                    String[] resp = scanner.nextLine().split(":");
+                    String linha1 = scanner.nextLine();
+                    if(linha1.startsWith("OPCOES")){
+                        String[] opc = linha1.split(":");
+                        opc[1] = linha1;
+                    }
+                    else{
+                            linha1 = null;
+                    }
+                    //bloco de montagem de objeto
+                    novaPergunta.setdificuldade(dif);
+                    novaPergunta.setenunciado(enu);
+                    novaPergunta.setresposta(resp);
+                    novaPergunta.setopcoes(linha1);
+                    perguntas.add(novaPergunta);
+
                 }
 
             }
@@ -42,5 +61,9 @@ public class QuestionBank
                 scanner.close();
             }
         }
+    }
+
+    public ArrayList<Question> getPerguntas() {
+        return perguntas;
     }
 }
