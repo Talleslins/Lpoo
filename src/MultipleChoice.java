@@ -16,7 +16,7 @@ public class MultipleChoice extends Question {
     String exibirPergunta() {
         System.out.println("--------------");
         System.out.println(this.Enunciado);
-
+        return "";
     }
     @Override
     boolean validarResposta(String r) {
