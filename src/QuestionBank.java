@@ -37,7 +37,9 @@ public class QuestionBank
                     String linha1 = scanner.nextLine();
                     if(linha1.startsWith("OPCOES")){
                         String[] opc = linha1.split(":");
-                        novaPergunta.setopcoes(opc[1].trim());
+                        if (novaPergunta instanceof MultipleChoice) {
+                            ((MultipleChoice) novaPergunta).setopcoes(opc[1].trim());
+                        }
                     }
                     else{
                             linha1 = null;

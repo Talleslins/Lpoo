@@ -1,16 +1,25 @@
 public class MultipleChoice extends Question {
   protected String Opcoes;
 
-    public MultipleChoice(String Opcoes) {
-        this.Opcoes = Opcoes;
+    public MultipleChoice() {
+        super("", "", "");
     }
 
-    void setopcoes(String o) { Opcoes = o; }
-
+    public MultipleChoice(String Opcoes) {
+        super("", "", ""); // Necessário chamar o super aqui também
+        this.Opcoes = Opcoes;
+    }
+    public void setopcoes(String o) {
+        this.Opcoes = o;
+    }
     @Override
     String exibirPergunta() {
         System.out.println("--------------");
         System.out.println(this.Enunciado);
 
+    }
+    @Override
+    boolean validarResposta(String r) {
+        return this.Resposta.equalsIgnoreCase(r);
     }
 }
