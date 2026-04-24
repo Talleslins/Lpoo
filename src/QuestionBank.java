@@ -12,7 +12,7 @@ public class QuestionBank
 
     void lerArquivo(){
 
-        File file = new File("src/questoes_lpoo_jogo_v2.txt");
+        File file = new File("src/banco_questoes_lpoo_final.txt");
         String linha;
         try {
             scanner = new Scanner(file);
@@ -37,23 +37,22 @@ public class QuestionBank
                     String linha1 = scanner.nextLine();
                     if(linha1.startsWith("OPCOES")){
                         String[] opc = linha1.split(":");
-                        opc[1] = linha1;
+                        novaPergunta.setopcoes(opc[1].trim());
                     }
                     else{
                             linha1 = null;
                     }
                     //bloco de montagem de objeto
-                    novaPergunta.setdificuldade(dif);
-                    novaPergunta.setenunciado(enu);
-                    novaPergunta.setresposta(resp);
-                    novaPergunta.setopcoes(linha1);
+                    novaPergunta.setdificuldade(dif[1].trim());
+                    novaPergunta.setenunciado(enu[1].trim());
+                    novaPergunta.setresposta(resp[1].trim());
                     perguntas.add(novaPergunta);
 
                 }
 
             }
 
-        } catch (IOException e) {
+        } catch (IOException e) {    
             System.out.println("Error: " + e.getMessage());
         } finally {
 
