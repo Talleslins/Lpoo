@@ -13,8 +13,18 @@ public abstract class Question {
     void setdificuldade(String d) { Dificuldade = d; }
     void setresposta(String r) { Resposta = r; }
 
-    abstract String exibirPergunta();
+    abstract void exibirPergunta();
 
-    abstract boolean validarResposta(String r);
+    boolean validarResposta(String r) {
+        if (r.equalsIgnoreCase(this.Resposta)) {
+            System.out.println(">>Resposta correta!");
+            System.out.print("--------------");
+            return true;
+        } else {
+            System.out.println(">>Resposta incorreta.");
+            System.out.print("--------------");
+            return false;
+        }
+    }
 
 }
