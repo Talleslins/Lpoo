@@ -1,3 +1,5 @@
+package Questões;
+
 public abstract class Question {
     protected String Enunciado;
     protected String Dificuldade;
@@ -13,9 +15,9 @@ public abstract class Question {
     void setdificuldade(String d) { Dificuldade = d; }
     void setresposta(String r) { Resposta = r; }
 
-    abstract void exibirPergunta();
+    public abstract void exibirPergunta();
 
-    boolean validarResposta(String r) {
+    public boolean validarResposta(String r) {
         if (r.equalsIgnoreCase(this.Resposta)) {
             System.out.println(">>Resposta correta!");
             System.out.print("--------------");
@@ -26,5 +28,7 @@ public abstract class Question {
             return false;
         }
     }
-
+    public String getResposta() {
+        return this.Resposta;
+    }
 }

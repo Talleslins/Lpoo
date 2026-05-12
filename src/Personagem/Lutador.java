@@ -1,6 +1,6 @@
+package Personagem;
 
-
-public class Lutador extends Character {
+public class Lutador extends Personagem.Character {
 
 
     public Lutador(int vida, int defesa, int ataque) {

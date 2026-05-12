@@ -1,3 +1,10 @@
+import Controle.BattleManager;
+import Personagem.Cientista;
+import Personagem.Enemy;
+import Personagem.Player;
+import Questões.Question;
+import Questões.QuestionBank;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

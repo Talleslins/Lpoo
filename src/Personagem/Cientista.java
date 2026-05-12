@@ -1,4 +1,6 @@
-public class Cientista extends Character {
+package Personagem;
+
+public class Cientista extends Personagem.Character {
 
     public Cientista() {
         super(100, 100, 60);

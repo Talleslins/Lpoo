@@ -1,4 +1,6 @@
- public abstract class Character {
+package Personagem;
+
+public abstract class Character {
      private int vida;
      private int defesa;
      private int ataque;

@@ -1,3 +1,9 @@
+package Controle;
+
+import Personagem.Enemy;
+import Personagem.Player;
+import Questões.Question;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,7 +36,7 @@ public class BattleManager {
             }
             else{
 
-                System.out.println("\nVocê errou a pergunta :(" +"\nResposta: "+ (perguntaAtual.Resposta) + "\nO inimigo aproveitou a oportunidade para lhe atacar.");
+                System.out.println("\nVocê errou a pergunta :(" +"\nResposta: "+ (perguntaAtual.getResposta()) + "\nO inimigo aproveitou a oportunidade para lhe atacar.");
                 inimigo.atacar(jogador.getPersonagemEscolhido());
 
             }

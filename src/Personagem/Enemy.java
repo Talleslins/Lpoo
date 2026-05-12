@@ -1,4 +1,6 @@
-public class Enemy extends Character {
+package Personagem;
+
+public class Enemy extends Personagem.Character {
 
     public Enemy() {
         super(300, 10, 60);
