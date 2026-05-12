@@ -9,5 +9,7 @@ public class Player{
         this.PersonagemEscolhido = personagemEscolhido;
     }
 
-
+    public Character getPersonagemEscolhido() {
+        return PersonagemEscolhido;
+    }
 }

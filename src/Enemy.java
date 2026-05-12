@@ -1,13 +1,13 @@
 public class Enemy extends Character {
 
     public Enemy() {
-        super(100, 100, 100);
+        super(300, 10, 60);
     }
         @Override
         public void atacar(Character alvo){
             int dano = this.getAtaque();
 
-            receberDano(dano);
+            alvo.receberDano(dano);
 
         }
 }

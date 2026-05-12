@@ -11,8 +11,8 @@
 
      public void receberDano(int dano){
          int danoCalculado = dano - this.defesa;
-         if(danoCalculado>=0) vida -= danoCalculado;
-         else vida -= 1;
+         vida -= danoCalculado;
+
      }
      public abstract void atacar(Character alvo);
 
@@ -22,5 +22,9 @@
 
      public int getDefesa() {
          return defesa;
+     }
+
+     public int getVida() {
+         return vida;
      }
  }

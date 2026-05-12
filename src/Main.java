@@ -1,19 +1,16 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
-void main() {
+public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-
+    Player jogador = new Player("talles",0, new Cientista());
+    Enemy inimigo = new Enemy();
     QuestionBank bancoQuestoes = new QuestionBank();
     bancoQuestoes.lerArquivo();
     ArrayList<Question> questoes = bancoQuestoes.getPerguntas();
 
-    questoes.get(1).exibirPergunta();
-    String r = scanner.nextLine();
-    questoes.get(1).validarResposta(r);
-    System.out.println("\n");
+    BattleManager manager = new BattleManager(jogador,inimigo);
 
-    questoes.get(2).exibirPergunta();
-    r = scanner.nextLine();
-    questoes.get(2).validarResposta(r);
-    System.out.println("\n");
+    manager.iniciarCombate(questoes,scanner);
 }
+
