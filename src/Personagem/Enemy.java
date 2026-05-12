@@ -1,13 +1,15 @@
-public class Enemy extends Character {
+package Personagem;
+
+public class Enemy extends Personagem.Character {
 
     public Enemy() {
-        super(100, 100, 100);
+        super(300, 10, 60);
     }
         @Override
         public void atacar(Character alvo){
             int dano = this.getAtaque();
 
-            receberDano(dano);
+            alvo.receberDano(dano);
 
         }
 }

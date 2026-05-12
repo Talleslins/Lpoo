@@ -1,6 +1,7 @@
+package Questões;
+
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ public class QuestionBank
     Scanner scanner = null;
 
 
-    void lerArquivo(){
+    public void lerArquivo(){
 
         File file = new File("src/banco_questoes_lpoo_final.txt");
         String linha;

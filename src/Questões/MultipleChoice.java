@@ -1,3 +1,5 @@
+package Questões;
+
 public class MultipleChoice extends Question {
     protected String Opcoes;
 
@@ -15,7 +17,7 @@ public class MultipleChoice extends Question {
     }
 
     @Override
-    void exibirPergunta() {
+    public void exibirPergunta() {
         System.out.println("--------------");
         System.out.println(this.Enunciado+"\n");
         String[] arrOpcoes = Opcoes.split(";");
