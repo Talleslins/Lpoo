@@ -3,59 +3,38 @@ package Controle;
 import Personagem.Enemy;
 import Personagem.Player;
 import Questões.Question;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BattleManager {
     private Player jogador;
     private Enemy inimigo;
+    private ArrayList<Round> historicoRodadas; // [cite: 51]
 
-    public BattleManager(Player jogador, Enemy inimigo){
+    public BattleManager(Player jogador, Enemy inimigo) {
         this.jogador = jogador;
         this.inimigo = inimigo;
-
+        this.historicoRodadas = new ArrayList<>();
     }
 
+    public boolean iniciarCombate(ArrayList<Question> questoes, Scanner scanner) {
+        int indice = 0;
+        
+        while (jogador.getPersonagemEscolhido().getVida() > 0 && 
+               inimigo.getVida() > 0 && 
+               indice < questoes.size()) {
 
-    public void iniciarCombate(ArrayList<Question> questoes, Scanner scanner){
-        int vidaAtualPlayer = jogador.getPersonagemEscolhido().getVida();
-        int vidaAtualEnemy = inimigo.getVida();
-        int indicePergunta = 0;
-        while(vidaAtualPlayer>0 && vidaAtualEnemy>0 && indicePergunta< questoes.size()){
+            System.out.println("\n---- STATUS ----");
+            System.out.println("Jogador: " + jogador.getPersonagemEscolhido().getVida());
+            System.out.println("Inimigo: " + inimigo.getVida());
 
-            System.out.println("----NOVA RODADA----");
-            System.out.println("Sua vida: " + vidaAtualPlayer);
-            System.out.println("Vida do inimigo: " + vidaAtualEnemy);
-            Question perguntaAtual = questoes.get(indicePergunta);
-            perguntaAtual.exibirPergunta();
-            String resposta = scanner.nextLine();
-            if(perguntaAtual.validarResposta(resposta)){
-                System.out.println("\nParabéns você acertou a pergunta!!!\naplicando dano ao inimigo...");
-                jogador.getPersonagemEscolhido().atacar(inimigo);
-            }
-            else{
-
-                System.out.println("\nVocê errou a pergunta :(" +"\nResposta: "+ (perguntaAtual.getResposta()) + "\nO inimigo aproveitou a oportunidade para lhe atacar.");
-                inimigo.atacar(jogador.getPersonagemEscolhido());
-
-            }
-            vidaAtualPlayer = jogador.getPersonagemEscolhido().getVida();
-            vidaAtualEnemy = inimigo.getVida();
-            indicePergunta++;
+            // Delega a responsabilidade do turno para a classe Round 
+            Round rodadaAtual = new Round(questoes.get(indice), jogador, inimigo);
+            rodadaAtual.executar(scanner);
+            historicoRodadas.add(rodadaAtual);
+            
+            indice++;
         }
-        if(vidaAtualPlayer == 0){
-            System.out.println("Você foi derrotado!!!");
-        }
-        if(vidaAtualEnemy <= 0){
-            System.out.println("Parabéns, voce ganhou!!!");
-        }
-
-
+        return inimigo.getVida() <= 0; // Retorna se o jogador venceu [cite: 55]
     }
-
-
-
-
-
 }
