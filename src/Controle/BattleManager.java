@@ -24,7 +24,7 @@ public class BattleManager {
         int indicePergunta = 0;
         while(vidaAtualPlayer>0 && vidaAtualEnemy>0 && indicePergunta< questoes.size()){
 
-            System.out.println("----NOVA RODADA----");
+            System.out.println("----NOVO TURNO----");
             System.out.println("Sua vida: " + vidaAtualPlayer);
             System.out.println("Vida do inimigo: " + vidaAtualEnemy);
             Question perguntaAtual = questoes.get(indicePergunta);
