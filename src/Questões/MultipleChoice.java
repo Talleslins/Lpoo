@@ -27,4 +27,5 @@ public class MultipleChoice extends Question {
         System.out.print("\nEscolha uma das opções: ");
     }
 
+
 }

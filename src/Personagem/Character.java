@@ -13,8 +13,10 @@ public abstract class Character {
 
      public void receberDano(int dano){
          int danoCalculado = dano - this.defesa;
+         if (danoCalculado < 0) {
+             danoCalculado = 0;
+         }
          vida -= danoCalculado;
-
      }
      public abstract void atacar(Character alvo);
 

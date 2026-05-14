@@ -1,7 +1,3 @@
-=== BANCO DE QUESTOES LPOO - VERSAO FINAL ===
-ESTRUTURA: TIPO -> DIFICULDADE -> PERGUNTA -> RESPOSTA -> OPCOES (se MC)
-----------------------------------------------------------------------
-
 TIPO: MULTIPLA_ESCOLHA
 DIFICULDADE: FACIL
 PERGUNTA: Qual conceito de LPOO permite que uma classe herde atributos e metodos de outra?
