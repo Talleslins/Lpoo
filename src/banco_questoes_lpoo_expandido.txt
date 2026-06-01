@@ -1,0 +1,1315 @@
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Construtor' e o metodo usado para inicializar os atributos do objeto.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e usada para referenciar a classe pai (superclasse).
+RESPOSTA: super
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Map', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) permite chaves duplicadas; B) armazena apenas valores; C) e um objeto que mapeia chaves para valores, nao podendo ter chaves duplicadas; D) e uma subclasse de Collection
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'throws' indica que um metodo pode lancar uma ou mais excecoes.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Encapsulamento', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) compartilha variaveis entre todos os objetos; B) deleta objetos da memoria; C) esconde os detalhes de implementacao e protege o estado do objeto; D) permite heranca multipla
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ permite que classes e metodos operem em parametros de tipos especificados.
+RESPOSTA: Generics
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ foca nas caracteristicas essenciais, ignorando detalhes de implementacao.
+RESPOSTA: Abstracao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Interface' e um contrato que define metodos que uma classe deve implementar.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Acoplamento' e o nivel de interdependencia entre as classes.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e um objeto que mapeia chaves para valores, nao podendo ter chaves duplicadas.
+RESPOSTA: Map
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e usado para lancar explicitamente uma excecao.
+RESPOSTA: throw
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Construtor' e usado para destruir o objeto da memoria.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Principio Aberto/Fechado (SOLID)', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) exige uso de metodos publicos; B) indica que os pacotes devem ser fechados; C) define que classes devem estar abertas para extensao, mas fechadas para modificacao; D) nao e usado em LPOO
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Abstracao' forca um objeto a ter varios tipos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'finally' e o bloco que sempre executa, ocorrendo excecao ou nao.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio de Responsabilidade Unica (SOLID)' exige que uma classe conheca todas as outras.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Modificador strictfp' garante que calculos de ponto flutuante sejam identicos em qualquer plataforma.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'protected', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) nao permite acesso por subclasses; B) permite acesso no mesmo pacote e por subclasses; C) impede a instanciacao da classe; D) e o modificador padrao
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Agregacao', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e a mesma coisa que heranca; B) e quando a parte e destruida com o todo; C) e um tipo de associacao onde a parte pode existir sem o todo; D) nao e suportada em Java
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'List', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e exclusiva para numeros; B) nao possui ordem; C) e uma colecao ordenada que permite elementos duplicados; D) nao permite elementos duplicados
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'NullPointerException' significa falta de memoria.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'throw' declara a excecao no metodo.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'System.out.println()' cria um novo objeto.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ permite acesso no mesmo pacote e por subclasses.
+RESPOSTA: protected
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Cloneable', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e uma interface marcadora em Java; B) forca a implementacao de toString; C) nao e usada na copia de objetos; D) tem varios metodos implementados
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ e a palavra-chave em Java usada para instanciar um novo objeto.
+RESPOSTA: new
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e como o Java passa os argumentos para os metodos.
+RESPOSTA: Passagem por valor
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Design Pattern Singleton' esconde a complexidade de um subsistema.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Coesao' mede quao focada e uma classe em uma unica responsabilidade.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Unboxing' e a conversao automatica da Wrapper class para o tipo primitivo.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Sobrecarga (Overloading)', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e esconder o metodo da classe pai; B) e redefinir o metodo da classe pai; C) e usar o metodo de uma interface; D) e criar metodos com o mesmo nome mas parametros diferentes na mesma classe
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'static', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) indica que o membro pertence a classe e e compartilhado; B) indica que a variavel nao pode mudar; C) apaga a variavel apos o uso; D) pertence apenas a uma instancia
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Passagem por valor' so vale para tipos primitivos.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ e o metodo usado para inicializar os atributos do objeto.
+RESPOSTA: Construtor
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e a conversao automatica do tipo primitivo para sua Wrapper class.
+RESPOSTA: Autoboxing
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ permite que uma classe herde atributos e metodos de outra.
+RESPOSTA: Herança
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio Aberto/Fechado (SOLID)' define que classes devem estar abertas para extensao, mas fechadas para modificacao.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'abstract' define uma classe que nao pode ser instanciada diretamente.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'static' indica que o membro pertence a classe e e compartilhado.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Downcasting' e o cast de uma referencia da superclasse para a subclasse, podendo falhar em execucao.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e uma interface que possui apenas um metodo abstrato.
+RESPOSTA: Interface Funcional
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Herança' permite que uma classe herde atributos e metodos de outra.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Agregacao' e um tipo de associacao onde a parte pode existir sem o todo.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Generics' so funciona com tipos primitivos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Streams API' permite operacoes de estilo funcional em colecoes de elementos.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Interface Funcional' e uma interface que possui apenas um metodo abstrato.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Upcasting', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) precisa ser feito manualmente sempre; B) converte string para int; C) gera erro de compilacao; D) e o cast de uma subclasse para superclasse, feito de forma implicita e segura
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ organiza classes e interfaces em espacos de nomes.
+RESPOSTA: Pacote (Package)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Garbage Collector' e o mecanismo que gerencia e libera memoria de objetos sem referencia.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'public' forca a sobrescrita do metodo.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'throws', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) cria uma excecao customizada; B) indica que um metodo pode lancar uma ou mais excecoes; C) lanca a excecao diretamente; D) trata a excecao localmente
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e a conversao automatica da Wrapper class para o tipo primitivo.
+RESPOSTA: Unboxing
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e a interface usada para definir logicas de ordenacao externas a classe.
+RESPOSTA: Comparator
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Polimorfismo' descreve a capacidade de um objeto assumir varias formas.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'new' e a palavra-chave em Java usada para instanciar um novo objeto.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'StringBuilder' e uma classe mutavel utilizada para criar e manipular strings de forma eficiente.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'try-catch' e a estrutura utilizada para tratar excecoes no codigo.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Polimorfismo' e um molde para a criacao de objetos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Generics' permite que classes e metodos operem em parametros de tipos especificados.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'String' pode ter seu valor alterado na mesma referencia de memoria.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'new', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) finaliza a execucao de um loop; B) declara uma variavel constante; C) importa um pacote; D) e a palavra-chave em Java usada para instanciar um novo objeto
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'this', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) referencia a instancia atual do objeto; B) altera o tipo da variavel; C) finaliza a classe; D) referencia a classe pai
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'String' e uma classe imutavel em Java.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ e a excecao lancada ao tentar acessar um membro de uma referencia nula.
+RESPOSTA: NullPointerException
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Passagem por valor', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e como o Java passa os argumentos para os metodos; B) passa a memoria original sempre; C) so vale para tipos primitivos; D) nao e aplicavel a objetos
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Expressoes Lambda', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) requerem declaracao explicita de tipos sempre; B) permitem implementar interfaces funcionais de forma concisa; C) substituem classes abstratas; D) nao podem ser usadas em Java 8
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Casting' e o processo de converter um tipo de dado em outro.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'try-catch' define uma nova classe.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Unboxing' precisa do metodo intValue() sempre.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e o cast de uma subclasse para superclasse, feito de forma implicita e segura.
+RESPOSTA: Upcasting
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Pacote (Package)' e um tipo primitivo.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e um tipo especial que representa um grupo de constantes fixas.
+RESPOSTA: Enum
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Enum', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) nao pode ter atributos nem metodos; B) e um tipo especial que representa um grupo de constantes fixas; C) e modificado em tempo de execucao; D) pode herdar de outras classes
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Upcasting' e o cast de uma subclasse para superclasse, feito de forma implicita e segura.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'private', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) indica que o metodo nao tem retorno; B) permite acesso global; C) permite acesso apenas por subclasses; D) restringe o acesso apenas a propria classe
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Downcasting', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e sempre seguro e feito implicitamente; B) converte int para double; C) e o cast de uma referencia da superclasse para a subclasse, podendo falhar em execucao; D) chama o construtor da superclasse
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e a redefinicao de um metodo da classe pai na classe filha.
+RESPOSTA: Sobrescrita (Overriding)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Design Pattern Observer' cria objetos complexos passo a passo.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Enum' e um tipo especial que representa um grupo de constantes fixas.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Principio de Responsabilidade Unica (SOLID)', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) define que uma classe deve ter muitos metodos; B) exige que uma classe conheca todas as outras; C) define que uma classe deve ter apenas um motivo para mudar; D) proibe o uso de heranca
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'super', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) cria um loop infinito; B) chama o garbage collector; C) retorna o valor de uma funcao; D) e usada para referenciar a classe pai (superclasse)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Map' armazena apenas valores.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Classe', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e a instancia gerada em tempo de execucao; B) e um espaco na memoria para variaveis; C) funciona como um molde para a criacao de objetos; D) e um metodo estatico
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Sobrecarga (Overloading)' e redefinir o metodo da classe pai.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ indica que o membro pertence a classe e e compartilhado.
+RESPOSTA: static
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e uma classe mutavel utilizada para criar e manipular strings de forma eficiente.
+RESPOSTA: StringBuilder
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Acoplamento' mede a velocidade do codigo.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'StringBuilder', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e segura para threads (thread-safe); B) nao possui metodos; C) e uma classe mutavel utilizada para criar e manipular strings de forma eficiente; D) e imutavel como String
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e um contrato que define metodos que uma classe deve implementar.
+RESPOSTA: Interface
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ restringe o acesso apenas dentro do mesmo pacote.
+RESPOSTA: default (pacote)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Design Pattern Factory' fornece uma interface para criar objetos sem expor a logica de criacao.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Associacao', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) e a criacao de pacotes; B) representa um relacionamento estrutural entre classes; C) e a heranca entre interfaces; D) e um metodo estatico
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ garante que uma classe tenha apenas uma instancia.
+RESPOSTA: Design Pattern Singleton
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio Aberto/Fechado (SOLID)' nao e usado em LPOO.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ define que uma classe deve ter apenas um motivo para mudar.
+RESPOSTA: Principio de Responsabilidade Unica (SOLID)
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Interface', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e instanciada diretamente com new; B) e uma classe com atributos privados; C) e um contrato que define metodos que uma classe deve implementar; D) nao pode ter metodos default (Java 8+)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Metodo estatico' pode ser chamado sem a necessidade de instanciar a classe.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ referencia a instancia atual do objeto.
+RESPOSTA: this
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Design Pattern Observer', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) define uma dependencia um-para-muitos, notificando mudancas de estado; B) desfaz operacoes realizadas; C) adapta uma interface para outra; D) cria objetos complexos passo a passo
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'String', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) pode ter seu valor alterado na mesma referencia de memoria; B) e um tipo primitivo; C) herda de StringBuilder; D) e uma classe imutavel em Java
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ define que classes devem estar abertas para extensao, mas fechadas para modificacao.
+RESPOSTA: Principio Aberto/Fechado (SOLID)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'default (pacote)' restringe o acesso apenas dentro do mesmo pacote.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e o mecanismo que gerencia e libera memoria de objetos sem referencia.
+RESPOSTA: Garbage Collector
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio de Liskov (SOLID)' garante que subclasses possam substituir classes base sem erros.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'finally' so executa se der erro.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Autoboxing' nao afeta colecoes.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Construtor', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) deve ter um tipo de retorno void; B) e usado para destruir o objeto da memoria; C) nao pode receber parametros; D) e o metodo usado para inicializar os atributos do objeto
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Metodo default (Java 8)' torna a interface uma classe abstrata.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'final', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) indica que a classe e abstrata; B) permite que o metodo seja sobrescrito; C) forca o uso de construtores; D) impede que uma classe seja herdada ou uma variavel seja alterada
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Autoboxing' e a conversao automatica do tipo primitivo para sua Wrapper class.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Sobrescrita (Overriding)' e a redefinicao de um metodo da classe pai na classe filha.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Herança', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) esconde os dados da classe; B) permite instanciar interfaces; C) permite que uma classe herde atributos e metodos de outra; D) garante uma unica instancia
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Garbage Collector', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) compila o codigo Java; B) e o mecanismo que gerencia e libera memoria de objetos sem referencia; C) garante liberacao imediata de memoria; D) aloca memoria estatica
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ sao classes que envolvem os tipos primitivos em objetos.
+RESPOSTA: Wrapper classes
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e um tipo de associacao onde a parte pode existir sem o todo.
+RESPOSTA: Agregacao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Objeto' e um tipo primitivo no Java.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Coesao' e a juncao de varios metodos.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ permitem implementar interfaces funcionais de forma concisa.
+RESPOSTA: Expressoes Lambda
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Set' e uma colecao que nao permite elementos duplicados.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'private' permite acesso apenas por subclasses.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Downcasting' converte int para double.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ fornece uma interface para criar objetos sem expor a logica de criacao.
+RESPOSTA: Design Pattern Factory
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'default (pacote)' permite acesso de qualquer lugar.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Map' e um objeto que mapeia chaves para valores, nao podendo ter chaves duplicadas.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio da Inversao de Dependencia' dependa de abstracoes, nao de implementacoes concretas.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ e uma instancia de uma classe.
+RESPOSTA: Objeto
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'throw', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e usado para lancar explicitamente uma excecao; B) encerra o programa ignorando erros; C) captura a excecao; D) declara a excecao no metodo
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ permite operacoes de estilo funcional em colecoes de elementos.
+RESPOSTA: Streams API
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ impede que uma classe seja herdada ou uma variavel seja alterada.
+RESPOSTA: final
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e uma interface marcadora em Java.
+RESPOSTA: Cloneable
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'new' importa um pacote.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Sobrescrita (Overriding)', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e proibir a heranca; B) e sobrecarregar metodos na mesma classe; C) e criar metodos com nomes diferentes; D) e a redefinicao de um metodo da classe pai na classe filha
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Comparator' e a interface usada para definir logicas de ordenacao externas a classe.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Herança' esconde os dados da classe.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e a estrutura utilizada para tratar excecoes no codigo.
+RESPOSTA: try-catch
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ define uma classe que nao pode ser instanciada diretamente.
+RESPOSTA: abstract
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Interface Funcional', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e uma interface que possui apenas um metodo abstrato; B) pode ter multiplos metodos abstratos; C) nao pode ter metodos default; D) nao pode ser usada com lambdas
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Expressoes Lambda' substituem classes abstratas.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Pacote (Package)', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) organiza classes e interfaces em espacos de nomes; B) e um tipo primitivo; C) compila o codigo; D) define a heranca
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Sobrecarga (Overloading)' e criar metodos com o mesmo nome mas parametros diferentes na mesma classe.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e uma colecao ordenada que permite elementos duplicados.
+RESPOSTA: List
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Principio de Liskov (SOLID)', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) diz que interfaces devem ser grandes; B) obriga o uso de banco de dados; C) garante que subclasses possam substituir classes base sem erros; D) define que as classes devem ser abertas para modificacao
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e o cast de uma referencia da superclasse para a subclasse, podendo falhar em execucao.
+RESPOSTA: Downcasting
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Abstracao', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) forca um objeto a ter varios tipos; B) define metodos com corpo em interfaces antigas; C) e o processo de compilacao do codigo; D) foca nas caracteristicas essenciais, ignorando detalhes de implementacao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'this' referencia a instancia atual do objeto.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ representa um relacionamento estrutural entre classes.
+RESPOSTA: Associacao
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Metodo default (Java 8)', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e o mesmo que metodo estatico; B) torna a interface uma classe abstrata; C) permite adicionar implementacoes em interfaces sem quebrar contratos; D) nao pode ser sobrescrito
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'public', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) forca a sobrescrita do metodo; B) permite que um membro seja acessado de qualquer lugar; C) restringe o acesso a propria classe; D) indica que a classe nao pode ser herdada
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'finally', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e o bloco que sempre executa, ocorrendo excecao ou nao; B) lanca uma nova excecao; C) trata a excecao; D) so executa se der erro
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e o processo de converter um tipo de dado em outro.
+RESPOSTA: Casting
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'final' permite que o metodo seja sobrescrito.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Wrapper classes', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) sao classes que envolvem os tipos primitivos em objetos; B) nao permitem conversoes de tipo; C) sao classes que nao possuem atributos; D) sao tipos primitivos puros
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ funciona como um molde para a criacao de objetos.
+RESPOSTA: Classe
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'default (pacote)', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e o mesmo que public; B) permite acesso de qualquer lugar; C) so e usado em interfaces; D) restringe o acesso apenas dentro do mesmo pacote
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Design Pattern Factory' clona objetos existentes.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Interface Funcional' pode ter multiplos metodos abstratos.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e a interface raiz da hierarquia de colecoes em Java.
+RESPOSTA: Collection
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ indica um relacionamento onde uma classe contem outras (tem-um).
+RESPOSTA: Composicao
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Wrapper classes' nao permitem conversoes de tipo.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ imprime uma mensagem na saida padrao e pula uma linha.
+RESPOSTA: System.out.println()
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ indica que um metodo pode lancar uma ou mais excecoes.
+RESPOSTA: throws
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Wrapper classes' sao classes que envolvem os tipos primitivos em objetos.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e o nivel de interdependencia entre as classes.
+RESPOSTA: Acoplamento
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Design Pattern Observer' define uma dependencia um-para-muitos, notificando mudancas de estado.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e criar metodos com o mesmo nome mas parametros diferentes na mesma classe.
+RESPOSTA: Sobrecarga (Overloading)
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'Objeto', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e uma palavra-chave para definir metodos; B) e um tipo primitivo no Java; C) e um erro em tempo de compilacao; D) e uma instancia de uma classe
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Streams API', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) altera a colecao original sempre; B) permite operacoes de estilo funcional em colecoes de elementos; C) substitui lacos for e while de forma obrigatoria; D) e usada para ler dados do teclado
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Pacote (Package)' organiza classes e interfaces em espacos de nomes.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Abstracao' foca nas caracteristicas essenciais, ignorando detalhes de implementacao.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Classes Internas Anonimas' devem sempre ser estaticas.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Collection' e usada para ler arquivos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio de Responsabilidade Unica (SOLID)' define que uma classe deve ter apenas um motivo para mudar.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'NullPointerException' e a excecao lancada ao tentar acessar um membro de uma referencia nula.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Composicao', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) indica um relacionamento onde uma classe contem outras (tem-um); B) nao permite reutilizacao de codigo; C) e sempre pior que a heranca; D) e o relacionamento de heranca (e-um)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'static' indica que a variavel nao pode mudar.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Modificador strictfp' permite heranca multipla.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio da Inversao de Dependencia' nao use interfaces.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Passagem por valor' e como o Java passa os argumentos para os metodos.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Classe' e a instancia gerada em tempo de execucao.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'System.out.println()', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) finaliza o processo do Java; B) imprime uma mensagem na saida padrao e pula uma linha; C) le dados do teclado; D) cria um novo objeto
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'List' e exclusiva para numeros.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Cloneable' e uma interface marcadora em Java.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Design Pattern Factory', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) define o esqueleto de um algoritmo; B) fornece uma interface para criar objetos sem expor a logica de criacao; C) clona objetos existentes; D) garante uma unica instancia
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Comparable' e a interface usada para definir a ordem natural dos objetos.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Principio de Liskov (SOLID)' define que as classes devem ser abertas para modificacao.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Modificador strictfp', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) garante que calculos de ponto flutuante sejam identicos em qualquer plataforma; B) impede alteracao de variaveis; C) otimiza a memoria; D) permite heranca multipla
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ garante que subclasses possam substituir classes base sem erros.
+RESPOSTA: Principio de Liskov (SOLID)
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Encapsulamento' compartilha variaveis entre todos os objetos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Garbage Collector' garante liberacao imediata de memoria.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'List' e uma colecao ordenada que permite elementos duplicados.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Set', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e usada para chave-valor; B) mantem a ordem de insercao sempre; C) e uma colecao que nao permite elementos duplicados; D) permite duplicatas
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Metodo estatico' nao pode acessar outras variaveis estaticas.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ dependa de abstracoes, nao de implementacoes concretas.
+RESPOSTA: Principio da Inversao de Dependencia
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e o bloco que sempre executa, ocorrendo excecao ou nao.
+RESPOSTA: finally
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Expressoes Lambda' permitem implementar interfaces funcionais de forma concisa.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'private' restringe o acesso apenas a propria classe.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ mede quao focada e uma classe em uma unica responsabilidade.
+RESPOSTA: Coesao
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Design Pattern Singleton', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) garante que uma classe tenha apenas uma instancia; B) cria familias de objetos; C) notifica multiplos objetos; D) esconde a complexidade de um subsistema
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Agregacao' e a mesma coisa que heranca.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Metodo estatico', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) so pode ser chamado por objetos da classe; B) obriga o uso de this; C) pode ser chamado sem a necessidade de instanciar a classe; D) nao pode acessar outras variaveis estaticas
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Enum' nao pode ter atributos nem metodos.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Associacao' representa um relacionamento estrutural entre classes.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Autoboxing', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) e a conversao explicita; B) e a conversao automatica do tipo primitivo para sua Wrapper class; C) so funciona com inteiros; D) nao afeta colecoes
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'protected' impede a instanciacao da classe.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Comparator', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e a interface usada para definir logicas de ordenacao externas a classe; B) e o mesmo que Comparable; C) define a ordenacao natural; D) nao permite o uso de lambdas
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'super' chama o garbage collector.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ garante que calculos de ponto flutuante sejam identicos em qualquer plataforma.
+RESPOSTA: Modificador strictfp
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'public' permite que um membro seja acessado de qualquer lugar.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'throws' lanca a excecao diretamente.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Set' e usada para chave-valor.
+RESPOSTA: F
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ e uma colecao que nao permite elementos duplicados.
+RESPOSTA: Set
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'try-catch', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) cria um loop; B) e a estrutura utilizada para tratar excecoes no codigo; C) define uma nova classe; D) importa bibliotecas
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ restringe o acesso apenas a propria classe.
+RESPOSTA: private
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Comparable', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) e um metodo do pacote java.io; B) compara dois objetos diferentes externamente; C) e a interface usada para definir a ordem natural dos objetos; D) nao possui metodos
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ e a interface usada para definir a ordem natural dos objetos.
+RESPOSTA: Comparable
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ sao declaradas e instanciadas ao mesmo tempo, sem nome.
+RESPOSTA: Classes Internas Anonimas
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Upcasting' gera erro de compilacao.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'protected' permite acesso no mesmo pacote e por subclasses.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'abstract' garante a criacao de multiplos objetos.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Generics', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) so funciona com tipos primitivos; B) permite que classes e metodos operem em parametros de tipos especificados; C) e um design pattern; D) forca o uso do tipo Object
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Casting', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e o processo de converter um tipo de dado em outro; B) e a exclusao de um objeto; C) e o ato de sobrescrever um metodo; D) e a importacao de uma classe
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Acoplamento', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) mede a velocidade do codigo; B) e o nivel de interdependencia entre as classes; C) e a ausencia de relacionamentos; D) e o ocultamento de dados
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Collection' e a interface raiz da hierarquia de colecoes em Java.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Comparable' nao possui metodos.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Polimorfismo', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e um molde para a criacao de objetos; B) impede a criacao de objetos; C) e usado para finalizar o programa; D) descreve a capacidade de um objeto assumir varias formas
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: MEDIA
+PERGUNTA: O termo/conceito _____ pode ser chamado sem a necessidade de instanciar a classe.
+RESPOSTA: Metodo estatico
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ e uma classe imutavel em Java.
+RESPOSTA: String
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Objeto' e uma instancia de uma classe.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Metodo default (Java 8)' permite adicionar implementacoes em interfaces sem quebrar contratos.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Composicao' indica um relacionamento onde uma classe contem outras (tem-um).
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'abstract', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) garante a criacao de multiplos objetos; B) substitui a palavra-chave interface; C) e usado para metodos com implementacao; D) define uma classe que nao pode ser instanciada diretamente
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: MEDIA
+PERGUNTA: Sobre o conceito de 'Collection', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) e a interface raiz da hierarquia de colecoes em Java; B) e usada para ler arquivos; C) substitui vetores estaticos de tamanho fixo sempre; D) e uma classe que herda de List
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Classes Internas Anonimas', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) sao declaradas e instanciadas ao mesmo tempo, sem nome; B) nao podem implementar interfaces; C) devem sempre ser estaticas; D) nao podem acessar variaveis locais finais
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Comparator' e o mesmo que Comparable.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'this' finaliza a classe.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Interface' e uma classe com atributos privados.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Associacao' e a criacao de pacotes.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Principio da Inversao de Dependencia', qual alternativa esta correta?
+RESPOSTA: C
+OPCOES: A) dependa de classes concretas; B) classes filhas devem instanciar classes pais; C) dependa de abstracoes, nao de implementacoes concretas; D) nao use interfaces
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Classe' funciona como um molde para a criacao de objetos.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'throw' e usado para lancar explicitamente uma excecao.
+RESPOSTA: V
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: FACIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'System.out.println()' imprime uma mensagem na saida padrao e pula uma linha.
+RESPOSTA: V
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Unboxing', qual alternativa esta correta?
+RESPOSTA: B
+OPCOES: A) precisa do metodo intValue() sempre; B) e a conversao automatica da Wrapper class para o tipo primitivo; C) gera erros de compilacao em Java; D) e a exclusao da Wrapper
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: DIFICIL
+PERGUNTA: O termo/conceito _____ define uma dependencia um-para-muitos, notificando mudancas de estado.
+RESPOSTA: Design Pattern Observer
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Composicao' nao permite reutilizacao de codigo.
+RESPOSTA: F
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: FACIL
+PERGUNTA: Sobre o conceito de 'NullPointerException', qual alternativa esta correta?
+RESPOSTA: D
+OPCOES: A) e lancada ao dividir por zero; B) significa falta de memoria; C) ocorre apenas na compilacao; D) e a excecao lancada ao tentar acessar um membro de uma referencia nula
+---
+TIPO: MULTIPLA_ESCOLHA
+DIFICULDADE: DIFICIL
+PERGUNTA: Sobre o conceito de 'Coesao', qual alternativa esta correta?
+RESPOSTA: A
+OPCOES: A) mede quao focada e uma classe em uma unica responsabilidade; B) e a juncao de varios metodos; C) e o nivel de dependencia entre as classes; D) e o uso excessivo de heranca
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ permite que um membro seja acessado de qualquer lugar.
+RESPOSTA: public
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: DIFICIL
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'Cloneable' tem varios metodos implementados.
+RESPOSTA: F
+---
+TIPO: VERDADEIRO_FALSO
+DIFICULDADE: MEDIA
+PERGUNTA: Na programacao orientada a objetos (LPOO), 'final' impede que uma classe seja herdada ou uma variavel seja alterada.
+RESPOSTA: V
+---
+TIPO: PREENCHER_LACUNA
+DIFICULDADE: FACIL
+PERGUNTA: O termo/conceito _____ esconde os detalhes de implementacao e protege o estado do objeto.
+RESPOSTA: Encapsulamento
+---

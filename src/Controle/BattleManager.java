@@ -42,6 +42,7 @@ public class BattleManager {
             }
             vidaAtualPlayer = jogador.getPersonagemEscolhido().getVida();
             vidaAtualEnemy = inimigo.getVida();
+            questoes.remove(indicePergunta);
             indicePergunta++;
         }
         if(vidaAtualPlayer == 0){
