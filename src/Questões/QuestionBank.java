@@ -1,12 +1,13 @@
 package Questões;
-
+import java.util.HashMap;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Scanner;
 
 public class QuestionBank {
-    private ArrayList<Question> perguntas = new ArrayList<>();
+    private Map<String,ArrayList<Question>> questoesPorDificuldade = new HashMap<>();
     Scanner scanner = null;
 
     public void lerArquivo(){
@@ -14,29 +15,20 @@ public class QuestionBank {
         String linha;
         try {
             scanner = new Scanner(file);
-
-
             Question novaPergunta = null;
 
             while (scanner.hasNextLine()) {
                 linha = scanner.nextLine().trim();
 
-                // Ignora linhas em branco
                 if (linha.isEmpty()) {
                     continue;
                 }
 
-
-                if (linha.equals("---")) {
-                    if (novaPergunta != null) {
-                        perguntas.add(novaPergunta);
-                        novaPergunta = null;
-                    }
-                    continue;
-                }
-
-
                 if (linha.startsWith("TIPO:")) {
+                    if (novaPergunta != null) {
+                        adicionarAoMapa(novaPergunta);
+                    }
+
                     String tipo = linha.replace("TIPO:", "").trim();
 
                     switch (tipo) {
@@ -62,7 +54,6 @@ public class QuestionBank {
                     } else if (linha.startsWith("RESPOSTA:")) {
                         novaPergunta.setresposta(linha.replace("RESPOSTA:", "").trim());
                     } else if (linha.startsWith("OPCOES:")) {
-
                         if (novaPergunta instanceof MultipleChoice) {
                             ((MultipleChoice) novaPergunta).setopcoes(linha.replace("OPCOES:", "").trim());
                         }
@@ -70,9 +61,8 @@ public class QuestionBank {
                 }
             }
 
-
             if (novaPergunta != null) {
-                perguntas.add(novaPergunta);
+                adicionarAoMapa(novaPergunta);
             }
 
         } catch (IOException e) {
@@ -84,7 +74,15 @@ public class QuestionBank {
         }
     }
 
-    public ArrayList<Question> getPerguntas() {
-        return perguntas;
+    private void adicionarAoMapa(Question pergunta) {
+        String dificuldade = pergunta.getDificuldade();
+        if (!questoesPorDificuldade.containsKey(dificuldade)) {
+            questoesPorDificuldade.put(dificuldade, new ArrayList<>());
+        }
+        questoesPorDificuldade.get(dificuldade).add(pergunta);
+    }
+
+    public ArrayList<Question> getQuestoes(String dificuldade) {
+        return questoesPorDificuldade.get(dificuldade);
     }
 }

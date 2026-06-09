@@ -31,4 +31,8 @@ public abstract class Question {
     public String getResposta() {
         return this.Resposta;
     }
+
+    public String getDificuldade() {
+        return Dificuldade;
+    }
 }
