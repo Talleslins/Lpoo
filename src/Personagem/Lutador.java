@@ -4,7 +4,7 @@ public class Lutador extends Personagem.Character implements Furia {
 
 
     public Lutador(int vida, int defesa, int ataque) {
-        super(100, 20,30);
+        super(180, 40,70);
     }
 
     @Override

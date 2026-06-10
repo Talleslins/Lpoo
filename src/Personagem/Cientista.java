@@ -7,7 +7,7 @@ public class Cientista extends Personagem.Character implements Intelecto {
     private boolean habilidadeDisponivel;
 
     public Cientista() {
-        super(100, 40, 60);
+        super(100, 15, 100);
         this.habilidadeDisponivel = true;
     }
 

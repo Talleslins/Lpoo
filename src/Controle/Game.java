@@ -33,8 +33,8 @@ public class Game {
         String nome = scanner.nextLine();
 
         System.out.println("\nEscolha sua classe:");
-        System.out.println("1 - Cientista (Ataque: 60 | Defesa: 100 | Vida: 100)");
-        System.out.println("2 - Lutador (Ataque: 30 | Defesa: 20 | Vida: 100)");
+        System.out.println("1 - Cientista (Ataque: 100 | Defesa: 15 | Vida: 100)");
+        System.out.println("2 - Lutador (Ataque: 70 | Defesa:40 | Vida: 180)");
         System.out.print("Sua opção: ");
         String opcaoClasse = scanner.nextLine();
 

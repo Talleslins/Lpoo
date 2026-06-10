@@ -3,7 +3,7 @@ package Personagem;
 public class Enemy extends Personagem.Character {
 
     public Enemy() {
-        super(300, 10, 60);
+        super(300, 50, 50);
     }
         @Override
         public void atacar(Character alvo){
