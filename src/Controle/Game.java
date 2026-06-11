@@ -27,41 +27,26 @@ public class Game {
         System.out.println("===================================");
         System.out.println("     BEM-VINDO AO JOGO DE LPOO!    ");
         System.out.println("===================================");
-
-
         bancoQuestoes.lerArquivo();
-        ArrayList<Question> questoes = bancoQuestoes.getPerguntas();
-
-
-        Collections.shuffle(questoes);
-
-        if (questoes.isEmpty()) {
-            System.out.println("Erro: Nenhuma questão carregada. Verifique o arquivo txt.");
-            return;
-        }
-
 
         System.out.print("Digite o seu nome: ");
         String nome = scanner.nextLine();
 
         System.out.println("\nEscolha sua classe:");
-        System.out.println("1 - Cientista (Ataque: 60 | Defesa: 100 | Vida: 100)");
-        System.out.println("2 - Lutador (Ataque: 30 | Defesa: 20 | Vida: 100)");
+        System.out.println("1 - Cientista (Ataque: 100 | Defesa: 15 | Vida: 100)");
+        System.out.println("2 - Lutador (Ataque: 70 | Defesa:40 | Vida: 180)");
         System.out.print("Sua opção: ");
         String opcaoClasse = scanner.nextLine();
 
         Character personagemEscolhido;
         if (opcaoClasse.equals("2")) {
-
             personagemEscolhido = new Lutador(100, 20, 30);
         } else {
             personagemEscolhido = new Cientista();
         }
 
-
         jogador = new Player(nome, 0, personagemEscolhido);
         System.out.println("\nJogador " + nome + " criado com sucesso!");
-
 
         boolean jogando = true;
         while (jogando && jogador.getPersonagemEscolhido().getVida() > 0) {
@@ -69,14 +54,40 @@ public class Game {
             System.out.println("          INICIANDO ROUND " + roundAtual);
             System.out.println("===================================");
 
+            String chaveDeDificuldade;
+            switch(roundAtual) {
+                case 1:
+                    chaveDeDificuldade = "FACIL";
+                    break;
+                case 2:
+                    chaveDeDificuldade = "MEDIA";
+                    break;
+                default:
+                    chaveDeDificuldade = "DIFICIL";
+                    break;
+            }
 
-            Round round = new Round(jogador, questoes, scanner);
+            ArrayList<Question> listaOriginal = bancoQuestoes.getQuestoes(chaveDeDificuldade);
+            if (listaOriginal == null || listaOriginal.isEmpty()) {
+                System.out.println("Erro: Nenhuma questão carregada para a dificuldade " + chaveDeDificuldade);
+                return;
+            }
+
+            ArrayList<Question> questoesDoRound = new ArrayList<>(listaOriginal);
+            Collections.shuffle(questoesDoRound);
+
+            ArrayList<Question> questoesBatalha = new ArrayList<>();
+            int limite = Math.min(50, questoesDoRound.size());
+            for(int i = 0; i < limite; i++) {
+                questoesBatalha.add(questoesDoRound.get(i));
+            }
+
+            Round round = new Round(jogador, questoesBatalha, scanner);
             boolean sobreviveu = round.jogar();
 
             if (sobreviveu) {
                 System.out.println("\nVocê sobreviveu ao Round " + roundAtual + "!");
                 roundAtual++;
-
 
                 System.out.print("Deseja avançar para o próximo inimigo? (s/n): ");
                 String continuar = scanner.nextLine();
