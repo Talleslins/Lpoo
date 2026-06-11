@@ -35,6 +35,7 @@ public class BattleManager {
 
             if (jogador.getPersonagemEscolhido() instanceof Cientista && perguntaAtual instanceof MultipleChoice) {
                 Cientista cientista = (Cientista) jogador.getPersonagemEscolhido();
+
                 if (cientista.isHabilidadeDisponivel()) {
                     System.out.println("\n[HABILIDADE] Você pode usar o Intelecto para eliminar 1 alternativa incorreta.");
                     System.out.print("Deseja ativar agora? (s/n): ");
@@ -44,8 +45,8 @@ public class BattleManager {
                     }
                 }
             }
-
             perguntaAtual.exibirPergunta();
+
             String resposta = scanner.nextLine();
 
             if(perguntaAtual.validarResposta(resposta)){
