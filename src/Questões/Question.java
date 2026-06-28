@@ -35,4 +35,7 @@ public abstract class Question {
     public String getDificuldade() {
         return Dificuldade;
     }
+    public String getEnunciado() {
+        return this.Enunciado;
+    }
 }

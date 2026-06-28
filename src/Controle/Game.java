@@ -40,7 +40,7 @@ public class Game {
 
         Character personagemEscolhido;
         if (opcaoClasse.equals("2")) {
-            personagemEscolhido = new Lutador(100, 20, 30);
+            personagemEscolhido = new Lutador();
         } else {
             personagemEscolhido = new Cientista();
         }

@@ -60,4 +60,7 @@ public class MultipleChoice extends Question {
 
         return eliminou;
     }
+    public String[] getOpcoesArray() {
+        return Opcoes.split(";");
+    }
 }

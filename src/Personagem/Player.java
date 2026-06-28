@@ -14,4 +14,7 @@ public class Player{
     public Character getPersonagemEscolhido() {
         return PersonagemEscolhido;
     }
+    public String getNome() { return Nome; }
+    public int getPontuacao() { return Pontuacao; }
+    public void adicionarPontos(int pontos) { this.Pontuacao += pontos; }
 }
